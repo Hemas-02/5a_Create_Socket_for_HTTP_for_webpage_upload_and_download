@@ -16,6 +16,16 @@ To write a PYTHON program for socket for HTTP for web page upload and download
 6.Stop the program
 <BR>
 ## Program 
+  # Upload file
+  upload_response = upload_file(host, port, 'example.txt')
+  print("Upload response:", upload_response)
+
+  # Download file
+  download_file(host, port, 'example.txt')
+  print("File downloaded successfully.")
 ## OUTPUT
+![Screenshot 2025-05-08 103408](https://github.com/user-attachments/assets/0d8101f9-ed39-48cf-8c4d-26ea8047b981)
+
+
 ## Result
 Thus the socket for HTTP for web page upload and download created and Executed
